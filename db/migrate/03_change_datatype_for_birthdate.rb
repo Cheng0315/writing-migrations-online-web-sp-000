@@ -1,4 +1,4 @@
-class change_datatype_for_birthdate < ActiveRecod::Migration
+class ChangeDatatypeForBirthdate < ActiveRecod::Migration
   def change
     change_column :student, :birthdate, :datetime
   end
